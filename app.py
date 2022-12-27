@@ -47,8 +47,13 @@ def updateTable():
     # Filter 2023 jobs and open jobs
     df = df[df["Status"] == "Apply"]
     df = df[df.Location.str.endswith('2023')]
-    df.to_excel('Excel_Sample.xlsx', sheet_name='Sheet1')
+    df.to_excel('Jobs.xlsx', sheet_name='Jobs')
     display(df)
 
 
-updateTable()
+def main():
+    updateTable()
+    return 0
+
+
+main()

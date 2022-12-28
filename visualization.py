@@ -4,6 +4,13 @@ import seaborn as sns
 from IPython.display import display
 
 
+def updateAllPlots(df):
+    graphAverageSalaryForEachState(df)
+    graphCityAsBarDiagram(df)
+    graphCountryAsBarDiagram(df)
+    graphSalaryDistribution(df)
+
+
 def graphCountryAsBarDiagram(df):
     plt.figure(figsize=(16, 10))
 

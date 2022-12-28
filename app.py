@@ -11,7 +11,7 @@ import visualization
 def main():
 
     df = pd.read_excel('Jobs.xlsx', sheet_name='Jobs')
-    visualization.graphAverageSalaryForEachState(df)
+    visualization.updateAllPlots(df)
     return 0
 
 

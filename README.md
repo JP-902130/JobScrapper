@@ -1,5 +1,6 @@
 # JobScrapper
 
+Check out the plots in "plots" folder!
 Data Source: https://www.levels.fyi/internships/
 
 - Queried 1000 data entries and filtered the jobs that are open for the latest recruiting season.
